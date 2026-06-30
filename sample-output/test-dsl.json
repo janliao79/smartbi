@@ -1,0 +1,995 @@
+{
+    "basicInfo": {
+        "id": "d83ff918-b505-4853-b457-4b83af569e2e",
+        "schemaVersion": "1.0.0",
+        "mode": "draft",
+        "status": "finished",
+        "name": "王力安防科技健康评估报告",
+        "reportType": "Word",
+        "description": "王力安防科技健康评估报告，用户自定义巡检报告模板，专门用于评审王力安防科技租户的健康评估报告。",
+        "templateId": "f8c2f51d-f4b2-448e-ba0c-40efa23767c6",
+        "templateName": "王力安防科技健康评估报告",
+        "createDate": "2026-06-30T15:53:07.356552+08:00",
+        "modifyDate": "2026-06-30T15:53:07.356562+08:00",
+        "category": "network_health"
+    },
+    "cover": {
+        "title": "王力安防科技健康评估报告"
+    },
+    "structureType": "flow",
+    "catalogs": [
+        {
+            "id": "d3e4662c",
+            "name": "评估整体概况和结果",
+            "order": 0,
+            "subCatalogs": [
+                {
+                    "id": "5faffef0",
+                    "name": "评估范围",
+                    "order": 0,
+                    "sections": [
+                        {
+                            "id": "section_scope",
+                            "title": "本评估旨在对指定的站点（分支）完成健康检测，评估范围包含 一号写字楼。本次评估对象如下：",
+                            "order": 0,
+                            "components": [
+                                {
+                                    "id": "7a89ea69-ad59-4dd2-8c10-730f16b2077a",
+                                    "type": "text",
+                                    "dataProperties": {
+                                        "dataType": "static",
+                                        "content": "本评估旨在对指定的站点（分支）完成健康检测，评估范围包含 一号写字楼, QWERTY, 王力测试，评估设备包含了121 台网络设备，2 台存储设备,2 台存储设备。评估对象如下："
+                                    }
+                                },
+                                {
+                                    "id": "86ec688d-d2ae-4a11-8aa6-c72cc82efca2",
+                                    "type": "table",
+                                    "dataProperties": {
+                                        "dataType": "static",
+                                        "title": "评估范围",
+                                        "columns": [
+                                            {
+                                                "title": "站点名称",
+                                                "key": "site_name",
+                                                "type": "string",
+                                                "lineageTracing": {
+                                                    "sources": [
+                                                        {
+                                                            "dataSourceName": "",
+                                                            "dataSourceType": "",
+                                                            "businessName": "site_name",
+                                                            "businessName_cn": "site_name",
+                                                            "description_cn": "",
+                                                            "field": "",
+                                                            "type": "string",
+                                                            "ui": ""
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "设备分类",
+                                                "key": "device_category",
+                                                "type": "string",
+                                                "lineageTracing": {
+                                                    "sources": [
+                                                        {
+                                                            "dataSourceName": "",
+                                                            "dataSourceType": "",
+                                                            "businessName": "device_category",
+                                                            "businessName_cn": "device_category",
+                                                            "description_cn": "",
+                                                            "field": "",
+                                                            "type": "string",
+                                                            "ui": ""
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "设备类型",
+                                                "key": "device_type",
+                                                "type": "string",
+                                                "lineageTracing": {
+                                                    "sources": [
+                                                        {
+                                                            "dataSourceName": "",
+                                                            "dataSourceType": "",
+                                                            "businessName": "device_type",
+                                                            "businessName_cn": "设备类型",
+                                                            "description_cn": "",
+                                                            "field": "",
+                                                            "type": "string",
+                                                            "ui": ""
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "品牌",
+                                                "key": "brand",
+                                                "type": "string",
+                                                "lineageTracing": {
+                                                    "sources": [
+                                                        {
+                                                            "dataSourceName": "",
+                                                            "dataSourceType": "",
+                                                            "businessName": "brand",
+                                                            "businessName_cn": "brand",
+                                                            "description_cn": "",
+                                                            "field": "",
+                                                            "type": "string",
+                                                            "ui": ""
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "设备型号",
+                                                "key": "model",
+                                                "type": "string",
+                                                "lineageTracing": {
+                                                    "sources": [
+                                                        {
+                                                            "dataSourceName": "",
+                                                            "dataSourceType": "",
+                                                            "businessName": "model",
+                                                            "businessName_cn": "model",
+                                                            "description_cn": "",
+                                                            "field": "",
+                                                            "type": "string",
+                                                            "ui": ""
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "title": "数量",
+                                                "key": "deviceCount",
+                                                "type": "long",
+                                                "lineageTracing": {
+                                                    "sources": [
+                                                        {
+                                                            "dataSourceName": "",
+                                                            "dataSourceType": "",
+                                                            "businessName": "count",
+                                                            "businessName_cn": "数量",
+                                                            "description_cn": "",
+                                                            "field": "",
+                                                            "type": "long",
+                                                            "ui": ""
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "data": [
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "路由器",
+                                                "brand": "DGHW",
+                                                "model": "NetEngine 8000E F8-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "路由器",
+                                                "brand": "Huawei",
+                                                "model": "AR502H-5G",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "路由器",
+                                                "brand": "DGHW",
+                                                "model": "NetEngine 8000E M14-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "其他",
+                                                "brand": "Huawei",
+                                                "model": "AP8030DN",
+                                                "deviceCount": 10
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "其他",
+                                                "brand": "H3C",
+                                                "model": "AFC2000-D-CN20",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "其他",
+                                                "brand": "Fortinet",
+                                                "model": "FortiGate VM64",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC6881H-48S6CQ",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S12700E-4-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16800-X8",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735S-L48T4X-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735S-L48T4S-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC6885-48YS8CQ",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735-L48T4X-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16800-X16",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S5731-H48T4XC-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S6730-H48X6C-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huaqin",
+                                                "model": "DX112",
+                                                "deviceCount": 3
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC8855-32CQ4BQ",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC6865E-48S8CQ",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC6863H-48S6CQ",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S12700E-8-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735-L48P4X-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735S-L48P4X-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16808",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC8865-4C",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735-L48P4S-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16816",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735S-L48P4S-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16804",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "C6735-S48X6C",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "C5735-L24T4X-QA2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735-L48T4S-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC8875-24BQ8DQ",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16800-X4",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S5732-H48S6Q-Z",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "网络设备",
+                                                "device_type": "AC控制器",
+                                                "brand": "Huawei",
+                                                "model": "AC6800V",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "服务器设备",
+                                                "device_type": "服务器",
+                                                "brand": "Huawei",
+                                                "model": "2288H V6",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "服务器设备",
+                                                "device_type": "服务器",
+                                                "brand": "OEM",
+                                                "model": "RS221G1(VC)",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "QWERTY",
+                                                "device_category": "存储设备",
+                                                "device_type": "存储",
+                                                "brand": "Huawei",
+                                                "model": "OceanStor Pacific",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "路由器",
+                                                "brand": "DGHW",
+                                                "model": "NetEngine 8000E M14-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "路由器",
+                                                "brand": "Huawei",
+                                                "model": "AR502H-5G",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "路由器",
+                                                "brand": "DGHW",
+                                                "model": "NetEngine 8000E F8-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "其他",
+                                                "brand": "Huawei",
+                                                "model": "AP8030DN",
+                                                "deviceCount": 10
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "其他",
+                                                "brand": "H3C",
+                                                "model": "AFC2000-D-CN20",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "其他",
+                                                "brand": "Fortinet",
+                                                "model": "FortiGate VM64",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16808",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "C5735-L24T4X-QA2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735S-L48T4S-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16800-X16",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735S-L48P4X-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S5732-H48S6Q-Z",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC8875-24BQ8DQ",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735S-L48T4X-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16804",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S6730-H48X6C-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huaqin",
+                                                "model": "DX112",
+                                                "deviceCount": 3
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC6885-48YS8CQ",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC8855-32CQ4BQ",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735-L48P4S-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S12700E-8-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC6881H-48S6CQ",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735-L48T4S-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC6865E-48S8CQ",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16816",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC6863H-48S6CQ",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735-L48T4X-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735S-L48P4S-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huarong",
+                                                "model": "S5735-L48P4X-A2",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC8865-4C",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16800-X4",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S12700E-4-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "DGHW",
+                                                "model": "S5731-H48T4XC-Z",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "C6735-S48X6C",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "HCZG",
+                                                "model": "DC16800-X8",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "网络设备",
+                                                "device_type": "AC控制器",
+                                                "brand": "Huawei",
+                                                "model": "AC6800V",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "一号写字楼",
+                                                "device_category": "存储设备",
+                                                "device_type": "存储",
+                                                "brand": "Huawei",
+                                                "model": "OceanStor Pacific",
+                                                "deviceCount": 1
+                                            },
+                                            {
+                                                "site_name": "王力测试",
+                                                "device_category": "网络设备",
+                                                "device_type": "路由器",
+                                                "brand": "Huawei",
+                                                "model": "AirEngine9700",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "王力测试",
+                                                "device_category": "网络设备",
+                                                "device_type": "路由器",
+                                                "brand": "Huawei",
+                                                "model": "AirEngine5760",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "王力测试",
+                                                "device_category": "网络设备",
+                                                "device_type": "其他",
+                                                "brand": "Huawei",
+                                                "model": "S3700",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "王力测试",
+                                                "device_category": "网络设备",
+                                                "device_type": "其他",
+                                                "brand": "Huawei",
+                                                "model": "CE5810",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "王力测试",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huawei",
+                                                "model": "USG6565E",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "王力测试",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huawei",
+                                                "model": "S5328C-EI",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "王力测试",
+                                                "device_category": "网络设备",
+                                                "device_type": "交换机",
+                                                "brand": "Huawei",
+                                                "model": "CE5810",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "王力测试",
+                                                "device_category": "网络设备",
+                                                "device_type": "AC控制器",
+                                                "brand": "Huawei",
+                                                "model": "USG6565E",
+                                                "deviceCount": 2
+                                            },
+                                            {
+                                                "site_name": "王力测试",
+                                                "device_category": "网络设备",
+                                                "device_type": "AC控制器",
+                                                "brand": "Huawei",
+                                                "model": "S5720",
+                                                "deviceCount": 2
+                                            }
+                                        ],
+                                        "mergeRows": [
+                                            {
+                                                "startRowIndex": 0,
+                                                "rowSpan": 39,
+                                                "column": "site_name",
+                                                "mergedText": "QWERTY"
+                                            },
+                                            {
+                                                "startRowIndex": 39,
+                                                "rowSpan": 37,
+                                                "column": "site_name",
+                                                "mergedText": "一号写字楼"
+                                            },
+                                            {
+                                                "startRowIndex": 76,
+                                                "rowSpan": 9,
+                                                "column": "site_name",
+                                                "mergedText": "王力测试"
+                                            },
+                                            {
+                                                "startRowIndex": 0,
+                                                "rowSpan": 36,
+                                                "column": "device_category",
+                                                "mergedText": "网络设备"
+                                            },
+                                            {
+                                                "startRowIndex": 36,
+                                                "rowSpan": 2,
+                                                "column": "device_category",
+                                                "mergedText": "服务器设备"
+                                            },
+                                            {
+                                                "startRowIndex": 39,
+                                                "rowSpan": 36,
+                                                "column": "device_category",
+                                                "mergedText": "网络设备"
+                                            },
+                                            {
+                                                "startRowIndex": 76,
+                                                "rowSpan": 9,
+                                                "column": "device_category",
+                                                "mergedText": "网络设备"
+                                            },
+                                            {
+                                                "startRowIndex": 0,
+                                                "rowSpan": 3,
+                                                "column": "device_type",
+                                                "mergedText": "路由器"
+                                            },
+                                            {
+                                                "startRowIndex": 3,
+                                                "rowSpan": 3,
+                                                "column": "device_type",
+                                                "mergedText": "其他"
+                                            },
+                                            {
+                                                "startRowIndex": 6,
+                                                "rowSpan": 29,
+                                                "column": "device_type",
+                                                "mergedText": "交换机"
+                                            },
+                                            {
+                                                "startRowIndex": 36,
+                                                "rowSpan": 2,
+                                                "column": "device_type",
+                                                "mergedText": "服务器"
+                                            },
+                                            {
+                                                "startRowIndex": 39,
+                                                "rowSpan": 3,
+                                                "column": "device_type",
+                                                "mergedText": "路由器"
+                                            },
+                                            {
+                                                "startRowIndex": 42,
+                                                "rowSpan": 3,
+                                                "column": "device_type",
+                                                "mergedText": "其他"
+                                            },
+                                            {
+                                                "startRowIndex": 45,
+                                                "rowSpan": 29,
+                                                "column": "device_type",
+                                                "mergedText": "交换机"
+                                            },
+                                            {
+                                                "startRowIndex": 76,
+                                                "rowSpan": 2,
+                                                "column": "device_type",
+                                                "mergedText": "路由器"
+                                            },
+                                            {
+                                                "startRowIndex": 78,
+                                                "rowSpan": 2,
+                                                "column": "device_type",
+                                                "mergedText": "其他"
+                                            },
+                                            {
+                                                "startRowIndex": 80,
+                                                "rowSpan": 3,
+                                                "column": "device_type",
+                                                "mergedText": "交换机"
+                                            },
+                                            {
+                                                "startRowIndex": 83,
+                                                "rowSpan": 2,
+                                                "column": "device_type",
+                                                "mergedText": "AC控制器"
+                                            }
+                                        ]
+                                    },
+                                    "advanceProperties": {
+                                        "pagination": {
+                                            "showPagination": true,
+                                            "defaultDisplayRows": 20
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "219390c6",
+                    "name": "评估结果",
+                    "order": 1,
+                    "sections": [
+                        {
+                            "id": "section_overview_summary",
+                            "title": "本评估结果旨在对指定的站点（分支）完成健康评估分析。",
+                            "order": 0,
+                            "components": [
+                                {
+                                    "id": "aa70a967290a403eb794d4c6f5911953",
+                                    "type": "text",
+                                    "dataProperties": {
+                                        "dataType": "static",
+                                        "content": "本次评估未发现风险问题，所有站点运行正常。"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
